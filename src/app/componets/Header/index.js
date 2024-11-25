@@ -56,7 +56,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <Image className={styles.gidle} src="/images/logo.png" alt="Logo" width={50} height={25}/>
+      <Image className={styles.gidle} src="/images/logo2.png" alt="Logo" width={100} height={25}/>
     </header>
   );
 };
