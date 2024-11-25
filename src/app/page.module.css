@@ -1,0 +1,53 @@
+.h1{
+  color:rgb(3, 115, 184);
+  font-family: 'Papyrus';
+  text-align: center;
+  padding: 1%;
+}
+
+.fotosss{
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  gap:0.5%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.fotos{
+  width: auto;
+}
+
+.img{
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.paragrafo{
+  width: 90vw;
+  margin: auto;
+}
+
+.p{
+  font-size: 2.5vh;
+    font-family: 'Courier New'
+}
+
+.p::first-letter {
+  font-size: 3vh;
+}
+
+@media(max-width:600px){
+  .img{
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+  }
+  .paragrafo{
+    width: 80vw;
+    font-size: 2vh;
+    margin: auto;
+  }
+}

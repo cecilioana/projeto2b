@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.h1{
+    color:rgb(3, 115, 184);
+    font-family: 'Papyrus';
+    text-align: center;
+    padding: 1%;
+  }
+
+.texto{
+    width: 95vw;
+    margin: auto;
+}
+
+.p{
+    font-size: 2.5vh;
+    font-family: 'Courier New';
+}
+.p::first-letter {
+    font-size: 3vh;
+  }
+
+.img{
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+
+#caption{
+    text-align: center;
+    color: rgb(3, 115, 184);
+    font-size: 3vh;
+    max-height: 3vh;
+    min-height: 2vh;
+    font-family: 'Papyrus';
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#table{
+    border-collapse: collapse;
+    border: solid, 1px, rgb(1, 1, 92);
+    background-color: rgb(205, 227, 255);
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    table-layout: fixed;
+}
+#thead{
+    height: 2vh;
+    background-color:  rgb(126, 181, 253);
+}
+.td{
+    border: solid, 1px, rgb(1, 1, 92);
+    text-align: center;
+    font-size: 2vh;
+    max-height: 2vh;
+    min-height: 0.5vh;
+    font-family: 'Courier New';
+}
+.th{ 
+    border: solid, 1px, rgb(1, 1, 92);  
+}
+#tabela{
+    font-family: 'Papyrus' ;
+    font-size: 2.5vh;
+    max-height: 2vh;
+    min-height: 2vh;
+    font-weight: bold;
+}
+.tr{
+    border: solid, 1px, rgb(1, 1, 92);
+    font-size: 2vh;
+    max-height: 3.5vh;
+    min-height: 1.5vh;
+}
+#table .tr:nth-child(even){
+    background-color:  rgb(161, 199, 249);
+}
+#iframe{
+    width: 70vw;
+    display: block;
+    margin: auto ;
+}
+
+
+@media(max-width:600px){
+    .texto{
+        width: 80vw;
+        font-size: 2vh;
+        margin: auto;
+    }
+    .img{
+        display: block;
+        margin: auto;
+        border-radius: 25px;
+        width: 250px;
+        height: 200px;
+    }
+
+    #table{
+        width: 324px;
+        height: 350px;
+        margin: auto;
+    }
+}

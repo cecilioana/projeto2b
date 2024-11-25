@@ -1,0 +1,40 @@
+.imgalbum{
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+#card2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.titulo{
+    text-align: left;
+    margin: 0%;
+    font-family: 'Georgia';
+}
+
+.lu{
+    font-family: 'Courier New';
+}
+
+@media(max-width:600px){
+    .div1{
+        margin-bottom: 5%;
+    }
+    #card2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+}
