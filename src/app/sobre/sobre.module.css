@@ -76,11 +76,7 @@
 #table .tr:nth-child(even){
     background-color:  rgb(161, 199, 249);
 }
-#iframe{
-    width: 70vw;
-    display: block;
-    margin: auto ;
-}
+
 
 
 @media(max-width:600px){
@@ -101,5 +97,13 @@
         width: 324px;
         height: 350px;
         margin: auto;
+    }
+
+    .iframe{
+        width: 90%;
+        height: 152px;
+        display: block;
+        margin: auto;
+        padding-top: 5%;
     }
 }

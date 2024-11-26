@@ -41,7 +41,7 @@
     display: none;
 }
 
-menu.active .menu1 {
+.menu.active .menu1 {
     transform: translateY(10px) rotate(45deg); 
   }
   

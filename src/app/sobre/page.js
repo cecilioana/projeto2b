@@ -69,7 +69,7 @@ const sobre = () =>{
                 <h2>Projetos Solo</h2>
                 <div className={styles.texto}>
                     <p className={styles.p} style={{marginBottom:"1%"}}>Em 2021, Yuqi lançou seu primeiro single solo, "A Page," que inclui as faixas "Giant" e "Bonnie & Clyde." Este projeto solo permitiu que Yuqi revelasse uma nova faceta de seu talento, destacando sua versatilidade em explorar diferentes estilos musicais e expressar-se de forma pessoal e autêntica. As músicas foram aclamadas, tanto pela crítica quanto pelos fãs, evidenciando sua evolução como artista solo e reafirmando seu potencial como uma das estrelas mais promissoras de sua geração.</p>
-                    <iframe style={{ borderRadius: "12px", margin: "auto" , display:"block"}} src="https://open.spotify.com/embed/album/7jmRVFWYCVgx2OEC1ZQJH8?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" allowFullScreen></iframe>
+                    <iframe className={styles.iframe} style={{ borderRadius: "12px", margin: "auto" , display:"block"}} src="https://open.spotify.com/embed/album/7jmRVFWYCVgx2OEC1ZQJH8?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" allowFullScreen></iframe>
                 </div>
             </section>
             <section>
