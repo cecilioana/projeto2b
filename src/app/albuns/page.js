@@ -4,12 +4,12 @@ import Image from 'next/image';
 const albuns = () =>{
     return(
     <main>
-        <h1>✧.*Álbuns.*</h1>
+        <h1 className={styles.h1}>✧.*Álbuns.*</h1>
         <section>
             <div id={styles.card2}>
                 <div className={styles.div1}>
                     <Image className={styles.imgalbum} src='/images/apage.jpeg' alt='A Page - 2021' width={200} height={200} />
-                    <h5>A Page - 2021</h5>
+                    <h5 className={styles.h5}>A Page - 2021</h5>
                     <ul className={styles.lu}>
                         <p className={styles.titulo}>Faixas:</p>
                         <li>Giant</li>
@@ -19,7 +19,7 @@ const albuns = () =>{
                 
                 <div>
                     <Image className={styles.imgalbum} src='/images/Yuan.jpeg' alt='Yuan - 2024' width={200} height={200} />
-                    <h5>Yuan - 2024</h5>
+                    <h5 className={styles.h5}>Yuan - 2024</h5>
                     <ul className={styles.lu}>
                         <p className={styles.titulo}>Faixas:</p>
                         <li>Yuan</li>

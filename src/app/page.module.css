@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Delius&family=Merienda:wght@300..900&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 .h1{
   color:rgb(3, 115, 184);
-  font-family: 'Papyrus';
+  font-family: 'Merienda';
   text-align: center;
   padding: 1%;
 }
@@ -28,6 +30,7 @@
 .paragrafo{
   width: 90vw;
   margin: auto;
+  padding-bottom: 15vh;
 }
 
 .p{
@@ -39,6 +42,8 @@
   font-size: 3vh;
 }
 
+
+
 @media(max-width:600px){
   .img{
     width: 90px;
@@ -49,5 +54,6 @@
     width: 80vw;
     font-size: 2vh;
     margin: auto;
+    padding-bottom: 0%;
   }
 }

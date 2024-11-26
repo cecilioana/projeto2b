@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Delius&family=Merienda:wght@300..900&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.h1{
+    color:rgb(3, 115, 184);
+    font-family: 'Merienda';
+    text-align: center;
+    padding: 1%;
+}
+
+.h5{
+    text-align: center;
+    font-family: 'Merienda';
+    font-size: 15px;
+    padding: 2%;
+}
+
 .imgalbum{
     width: 200px;
     height: auto;
@@ -15,6 +31,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1%;
+    margin-bottom: 23vh;
 }
 
 .titulo{
@@ -36,5 +53,6 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 10%;
+        margin-bottom: 0%;
     }
 }

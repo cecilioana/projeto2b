@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Delius&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,29 +14,6 @@
   }
 }
 
-h1{
-  text-align: center;
-  font-family: 'Papyrus';
-  color: rgb(3, 115, 184);
-  padding: 1%;
-  font-size: 26px;
-}
-
-h2{
-  font-family: 'Papyrus';
-  color: rgb(3, 115, 184);
-  text-align: center;
-  padding: 1%;
-  font-size: 20px;
-}
-
-h5{
-  text-align: center;
-  font-family: 'Papyrus';
-  font-size: 15px;
-  padding: 2%;
-}
-
 p{
   font-family: 'Courier New';
 }
@@ -43,6 +22,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  height: 100%;
 }
 
 body {

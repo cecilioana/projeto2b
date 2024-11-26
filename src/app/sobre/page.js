@@ -12,7 +12,7 @@ const sobre = () =>{
                 </div>
             </section>
             <section>
-                <h2>Estreia com o (G)-Idle</h2>
+                <h2 className={styles.h2}>Estreia com o (G)-Idle</h2>
                 <div>
                     <Image className={styles.img} src='/images/gidle.jpeg' alt="G idle" width={350} height={300} />
                 </div>
@@ -60,26 +60,26 @@ const sobre = () =>{
             </table>
             </section>
             <section>
-                <h2>Principais Contribuições</h2>
+                <h2 className={styles.h2}>Principais Contribuições</h2>
                 <div className={styles.texto}>
                     <p className={styles.p}>Como membro do (G)I-DLE, Yuqi se destacou por sua voz singular e impressionantes habilidades de dança. Ela tem sido uma presença constante e ativa em todas as promoções e performances do grupo, desempenhando um papel crucial na consolidação da imagem e do sucesso do (G)I-DLE. Seu carisma natural e a energia vibrante que traz para o palco são frequentemente elogiados por fãs e críticos, solidificando sua reputação como uma artista completa e cativante.</p>
                 </div>
             </section>
             <section>
-                <h2>Projetos Solo</h2>
+                <h2 className={styles.h2}>Projetos Solo</h2>
                 <div className={styles.texto}>
                     <p className={styles.p} style={{marginBottom:"1%"}}>Em 2021, Yuqi lançou seu primeiro single solo, "A Page," que inclui as faixas "Giant" e "Bonnie & Clyde." Este projeto solo permitiu que Yuqi revelasse uma nova faceta de seu talento, destacando sua versatilidade em explorar diferentes estilos musicais e expressar-se de forma pessoal e autêntica. As músicas foram aclamadas, tanto pela crítica quanto pelos fãs, evidenciando sua evolução como artista solo e reafirmando seu potencial como uma das estrelas mais promissoras de sua geração.</p>
                     <iframe className={styles.iframe} style={{ borderRadius: "12px", margin: "auto" , display:"block"}} src="https://open.spotify.com/embed/album/7jmRVFWYCVgx2OEC1ZQJH8?utm_source=generator&theme=0" width="60%" height="max-content" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" allowFullScreen></iframe>
                 </div>
             </section>
             <section>
-                <h2>Aparições na Mídia</h2>
+                <h2 className={styles.h2} >Aparições na Mídia</h2>
                 <div className={styles.texto}>
                     <p className={styles.p}>Além de suas atividades com o (G)I-DLE, Yuqi rapidamente se tornou uma figura popular em programas de variedades e reality shows, tanto na Coreia do Sul quanto na China. Sua personalidade vibrante e senso de humor cativante a transformaram em uma das favoritas do público. A fluência de Yuqi em chinês, coreano e inglês lhe permite conectar-se com fãs de diversas partes do mundo, ampliando seu alcance e solidificando ainda mais sua popularidade global.</p>
                 </div>
             </section>
             <section>
-                <h2>Impacto e Influência</h2>
+                <h2 className={styles.h2}>Impacto e Influência</h2>
                 <div className={styles.texto}>
                     <p className={styles.p}>Yuqi é vista como uma inspiração para muitos jovens aspirantes a artistas, especialmente aqueles de origem estrangeira que desejam ingressar na indústria do K-pop. Sua jornada de Pequim para o estrelato no K-pop destaca a importância da diversidade e inclusão na música e no entretenimento. Com uma carreira em constante ascensão, Yuqi continua a deixar sua marca na indústria musical, prometendo trazer ainda mais inovações e sucessos no futuro. Sua dedicação, talento e paixão pela música a destacam como uma das artistas mais influentes de sua geração.</p>
                 </div>
