@@ -38,10 +38,10 @@
     text-align: center;
     color: rgb(3, 115, 184);
     font-size: 3vh;
-    max-height: 3vh;
-    min-height: 2vh;
+    max-height: 15px;
     font-family: 'Merienda';
     font-weight: bold;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 #table{

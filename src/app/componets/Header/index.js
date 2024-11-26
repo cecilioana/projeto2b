@@ -32,13 +32,13 @@ const Header = () => {
           <div className={styles.divs}>
             <ul className={styles.listas}>
               <li className={styles.lii}>
-                <Link href="/">Home</Link>
+                <Link className={styles.link} href="/">Home</Link>
               </li>
               <li className={styles.lii}>
-                <Link href="/sobre">Carreira</Link>
+                <Link className={styles.link} href="/sobre">Carreira</Link>
               </li>
               <li className={styles.lii}>
-                <Link href="/albuns">Álbuns</Link>
+                <Link className={styles.link} href="/albuns">Álbuns</Link>
               </li>
             </ul>
           </div>
@@ -46,13 +46,13 @@ const Header = () => {
 
         <ul className={styles.lista}>
           <li className={styles.li}>
-            <Link href="/">Home</Link>
+            <Link className={styles.link} href="/">Home</Link>
           </li>
           <li className={styles.li}>
-            <Link href="/sobre">Carreira</Link>
+            <Link className={styles.link} href="/sobre">Carreira</Link>
           </li>
           <li className={styles.li}>
-            <Link href="/albuns">Álbuns</Link>
+            <Link className={styles.link} href="/albuns">Álbuns</Link>
           </li>
         </ul>
       </nav>
