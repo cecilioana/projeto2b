@@ -59,6 +59,8 @@
 }
 .th{ 
     border: solid, 1px, rgb(1, 1, 92);  
+    font-family: 'Courier New';
+    font-weight: bold;
 }
 #tabela{
     font-family: 'Papyrus' ;
@@ -101,7 +103,7 @@
 
     .iframe{
         width: 90%;
-        height: 152px;
+        height: 100px;
         display: block;
         margin: auto;
         padding-top: 5%;
