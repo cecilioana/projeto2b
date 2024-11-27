@@ -116,4 +116,8 @@
         margin: auto;
         padding-top: 5%;
     }
+
+    p{
+        font-size: 12vh;
+      }
 }
